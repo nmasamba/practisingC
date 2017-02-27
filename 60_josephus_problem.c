@@ -1,4 +1,5 @@
 /*****************************************************************************************************
+
 Adapted from Data Structures in C, 2nd Ed (Reema Thareja)
 
 Edited by Nyasha Masamba
@@ -15,9 +16,8 @@ if there are 5 (n) people and every second (k) person is eliminated, then first
 the person at position 2 is eliminated followed by the person at position 4 followed by person at
 position 1 and finally the person at position 5 is eliminated. Therefore, the person at position 3
 becomes the winner. 
+
 ********************************************************************************************************/
-
-
 
 
 #include <stdio.h>
