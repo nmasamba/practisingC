@@ -1,3 +1,12 @@
+/*********************************************************
+
+Author: Nyasha Masamba
+
+First C program. The quintessential "Hello world!"
+
+**********************************************************/
+
+
 #include <stdio.h>
 int main() {
 	
