@@ -71,55 +71,55 @@ int main()
 		switch(option)
 		{
 			case 1:
-			printf("\n Enter the value of the new node : ");
-			scanf("%d", &val);
-			tree = insertElement(tree, val);
-			break;
+				printf("\n Enter the value of the new node : ");
+				scanf("%d", &val);
+				tree = insertElement(tree, val);
+				break;
 			case 2:
-			printf("\n The elements of the tree are : \n");
-			preorderTraversal(tree);
-			break;
+				printf("\n The elements of the tree are : \n");
+				preorderTraversal(tree);
+				break;
 			case 3:
-			printf("\n The elements of the tree are : \n");
-			inorderTraversal(tree);
-			break;
+				printf("\n The elements of the tree are : \n");
+				inorderTraversal(tree);
+				break;
 			case 4:
-			printf("\n The elements of the tree are : \n");
-			postorderTraversal(tree);
-			break;
+				printf("\n The elements of the tree are : \n");
+				postorderTraversal(tree);
+				break;
 			case 5:
-			ptr = findSmallestElement(tree);
-			printf("\n Smallest element is :%d",ptr->data);
-			break;
+				ptr = findSmallestElement(tree);
+				printf("\n Smallest element is :%d",ptr->data);
+				break;
 			case 6:
-			ptr = findLargestElement(tree);
-			printf("\n Largest element is : %d", ptr->data);
-			break;
+				ptr = findLargestElement(tree);
+				printf("\n Largest element is : %d", ptr->data);
+				break;
 			case 7:
-			printf("\n Enter the element to be deleted : ");
-			scanf("%d", &val);
-			tree = deleteElement(tree, val);
-			break;
+				printf("\n Enter the element to be deleted : ");
+				scanf("%d", &val);
+				tree = deleteElement(tree, val);
+				break;
 			case 8:
-			printf("\n Total no. of nodes = %d", totalNodes(tree));
-			break;
+				printf("\n Total no. of nodes = %d", totalNodes(tree));
+				break;
 			case 9:
-			printf("\n Total no. of external nodes = %d",
-			totalExternalNodes(tree));
-			break;
+				printf("\n Total no. of external nodes = %d",
+				totalExternalNodes(tree));
+				break;
 			case 10:
-			printf("\n Total no. of internal nodes = %d",
-			totalInternalNodes(tree));
-			break;
+				printf("\n Total no. of internal nodes = %d",
+				totalInternalNodes(tree));
+				break;
 			case 11:
-			printf("\n The height of the tree = %d",Height(tree));
-			break;
+				printf("\n The height of the tree = %d",Height(tree));
+				break;
 			case 12:
-			tree = mirrorImage(tree);
-			break;
+				tree = mirrorImage(tree);
+				break;
 			case 13:
-			tree = deleteTree(tree);
-			break;
+				tree = deleteTree(tree);
+				break;
 		}
 	} while(option!=14);
 
@@ -154,9 +154,9 @@ struct node *insertElement(struct node *tree, int val)
 		{
 			parentptr=nodeptr;
 			if(val<nodeptr->data)
-			nodeptr=nodeptr->left;
+				nodeptr=nodeptr->left;
 			else
-			nodeptr = nodeptr->right;
+				nodeptr = nodeptr->right;
 		 }
 		if(val<parentptr->data)
 			parentptr->left = ptr;
@@ -239,7 +239,7 @@ struct node *deleteElement(struct node *tree, int val)
 	if(cur->left == NULL)
 		ptr = cur->right;
 	else if(cur->right == NULL)
-	ptr = cur->left;
+		ptr = cur->left;
 	else
 	{
 		// Find the in-order successor and its parent
@@ -311,9 +311,9 @@ int Height(struct node *tree)
 		leftheight = Height(tree->left);
 		rightheight = Height(tree->right);
 		if(leftheight > rightheight)
-		return (leftheight + 1);
+			return (leftheight + 1);
 		else
-		return (rightheight + 1);
+			return (rightheight + 1);
 	}
 }
 
