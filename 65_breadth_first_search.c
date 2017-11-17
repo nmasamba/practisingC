@@ -48,8 +48,11 @@ int main()
 	for(i = 0; i < MAX; i++)
 		for(j = 0; j < MAX; j++)
  			scanf("%d", &adj[i][j]);
-	
+
+	printf("BFS Traversal: ");
 	breadth_first_search(adj,visited,0);
+	printf("\n");
+
 	return 0;
 }
 
