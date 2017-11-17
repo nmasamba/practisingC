@@ -6,7 +6,9 @@ Adapted from Data Structures in C, 2nd Ed (Reema Thareja)
 Edited by Nyasha Masamba
 
 This C program implements a breadth-first search algorithm and finds the shortest path
-through the network.
+through the network. Breadth-first search (BFS) is a graph search algorithm that begins at the root 
+node and explores all the neighbouring nodes. Then for each of those nearest nodes, the algorithm 
+explores their unexplored neighbour nodes, and so on, until it finds the goal.
 ********************************************************************************************************/
 
 
