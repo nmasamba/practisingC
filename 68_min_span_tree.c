@@ -3,7 +3,8 @@ Adapted from Data Structures in C, 2nd Ed (Reema Thareja)
 
 Edited by Nyasha Masamba
 
-This C program uses Prim's (greedy) algorithm to find the minimum spanning tree of the graph.
+This C program uses Prim's (greedy) algorithm to find the minimum spanning tree of the graph and its 
+associated cost.
 A minimum spanning tree (MST) is defined as a spanning tree with weight less than or equal
 to the weight of every other spanning tree. In other words, a minimum spanning tree is a spanning
 tree that has weights associated with its edges, and the total weight of the tree (the sum of the
@@ -12,14 +13,13 @@ weights of its edges) is at a minimum.
 Example I/O
 Enter the number of nodes in the Graph : 3
 
- Enter the adjacency matrix of the Graph1 0 1
+ Enter the adjacency matrix of the Graph: 1 0 1
 1 1 1
 0 1 0
 
  Enter the Source : 2
 
- The Edges of the Mininum Spanning Tree are 2 1 
- 2 3 
+ The Edges of the Mininum Spanning Tree are 2 1 2 3 
 
  The Total cost of the Minimum Spanning Tree is : 4
 
