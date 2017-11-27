@@ -23,7 +23,7 @@ Enter the number of nodes in the graph : 3
 
  mat[1][0] = 1
 
- mat[1][1] = 0 
+ mat[1][1] = 0
 
  mat[1][2] = 0
 
@@ -33,10 +33,11 @@ Enter the number of nodes in the graph : 3
 
  mat[2][2] = 1
 
-The adjacency matrix is : 
+ The adjacency matrix is : 
 1	0	1	
 1	0	0	
 0	1	1	
+ The path matrix that has the shortest path is (see final matrix) : 
 
 
 1	9999	1	
@@ -82,6 +83,7 @@ int main()
 	 	}
 	}
 		 
+	printf("\n The path matrix that has the shortest path is (see final matrix) : ");
 	for(k=0; k<n;k++)
 	{
 		for(i=0;i<n;i++)
