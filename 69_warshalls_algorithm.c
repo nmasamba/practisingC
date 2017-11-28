@@ -10,7 +10,37 @@ P = A + A^2 + A^3 + ... + A^n.
 This is a lengthy process, so Warshall provided a very efficient algorithm to calculate the path
 matrix. 
 
-*NB: algorithm needs a bit of work*
+Example I/O
+
+Enter the number of nodes in the graph : 3
+
+ Enter the adjacency matrix : 
+ mat[0][0] = 1
+
+ mat[0][1] = 0
+
+ mat[0][2] = 0
+
+ mat[1][0] = 1
+
+ mat[1][1] = 1
+
+ mat[1][2] = 1
+
+ mat[2][0] = 0
+
+ mat[2][1] = 1
+
+ mat[2][2] = 1
+
+ The adjacency matrix is : 
+1	0	0	
+1	1	1	
+0	1	1	
+ The Path Matrix is :
+1	0	0	
+1	1	1	
+1	1	1
 
 ********************************************************************************************************/
 
@@ -69,8 +99,10 @@ void read(int mat[5][5], int n)
 void display(int mat[5][5], int n)
 {
 	int i, j;
-	for(i=0;i<n;i++)
+	for(i=0;i<n;i++) 
+	{
 		printf("\n");
 	 	for(j=0;j<n;j++)
  			printf("%d\t", mat[i][j]);
+ 	}
 }
