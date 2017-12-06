@@ -11,6 +11,7 @@ elements by repeatedly moving the largest element to the highest index position 
 pairs of elements in the array are compared with each other. If the element at the lower index is 
 greater than the element at the higher index, the two elements are interchanged so that the element 
 is placed before the bigger one. This process will continue till the list of unsorted elements exhausts.
+The complexity of bubble sort algorithm is O(n^2).
 
 Example I/O
 
