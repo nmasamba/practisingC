@@ -1,0 +1,62 @@
+
+•	 A data structure is a particular way of storing and
+organizing data either in computer’s memory or on
+the disk storage so that it can be used efficiently.
+•	 There are two types of data structures: primitive
+and non-primitive data structures. Primitive data
+structures are the fundamental data types which
+are supported by a programming language. Nonprimitive
+data structures are those data structures
+which are created using primitive data structures.
+•	 Non-primitive data structures can further be
+classified into two categories: linear and non-linear
+data structures.
+•	 If the elements of a data structure are stored in
+a linear or sequential order, then it is a linear
+data structure. However, if the elements of a data
+structure are not stored in sequential order, then it
+is a non-linear data structure.
+•	 An array is a collection of similar data elements
+which are stored in consecutive memory locations.
+•	 A linked list is a linear data structure consisting of
+a group of elements (called nodes) which together
+represent a sequence.
+•	 A stack is a last-in, first-out (LIFO) data structure in
+which insertion and deletion of elements are done at
+only one end, which is known as the top of the stack.
+•	 A queue is a first-in, first-out (FIFO) data structure
+in which the element that is inserted first is the first
+to be taken out. The elements in a queue are added at
+one end called the rear and removed from the other
+end called the front.
+•	 A tree is a non-linear data structure which consists
+of a collection of nodes arranged in a hierarchical
+tree structure.
+•	 The simplest form of a tree is a binary tree. A binary
+tree consists of a root node and left and right subtrees,
+where both sub-trees are also binary trees.
+•	 A graph is often viewed as a generalization of the tree
+structure, where instead of a purely parent-to-child
+relationship between tree nodes, any kind of complex
+relationships can exist between the nodes.
+•	 An abstract data type (ADT) is the way we look at a
+data structure, focusing on what it does and ignoring
+how it does its job.
+•	 An algorithm is basically a set of instructions that
+solve a problem.
+•	 The time complexity of an algorithm is basically
+the running time of the program as a function of the
+input size.
+•	 The space complexity of an algorithm is the amount
+of computer memory required during the program
+execution as a function of the input size.
+•	 The worst-case running time of an algorithm is an
+upper bound on the running time for any input.
+•	 The average-case running time specifies the expected
+behaviour of the algorithm when the input is
+randomly drawn from a given distribution.
+•	 Amortized analysis guarantees the average performance
+of each operation in the worst case.
+•	 The efficiency of an algorithm is expressed in terms
+of the number of elements that has to be processed
+and the type of the loop that is being used.
