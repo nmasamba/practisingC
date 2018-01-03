@@ -1,0 +1,49 @@
+An array is a collection of elements of the same data
+type.
+∑ The elements of an array are stored in consecutive
+memory locations and are referenced by an index
+(also known as the subscript).
+∑ The index specifies an offset from the beginning of
+the array to the element being referenced.
+∑ Declaring an array means specifying three
+parameters: data type, name, and its size.
+∑ The length of an array is given by the number of
+elements stored in it.
+∑ There is no single function that can operate on all
+the elements of an array. To access all the elements,
+we must use a loop.
+∑ The name of an array is a symbolic reference to
+the address of the first byte of the array. Therefore,
+whenever we use the array name, we are actually
+referring to the first byte of that array.
+∑ C considers a two-dimensional array as an array of
+one-dimensional arrays.
+∑ A two-dimensional array is specified using two
+subscripts where the first subscript denotes the row
+and the second subscript denotes the column of the
+array.
+∑ Using two-dimensional arrays, we can perform the
+different operations on matrices: transpose, addition,
+subtraction, multiplication.
+∑ A multi-dimensional array is an array of arrays. Like
+we have one index in a one-dimensional array, two
+indices in a two-dimensional array, in the same way
+we have n indices in an n-dimensional or multidimensional
+array. Conversely, an n-dimensional
+array is specified using n indices.
+∑ Multi-dimensional arrays can be stored in either row
+major order or column major order.
+∑ Sparse matrix is a matrix that has large number of
+elements with a zero value.
+∑ There are two types of sparse matrices. In the first
+type, all the elements above the main diagonal have
+a zero value. This type of sparse matrix is called
+a lower-triangular matrix. In the second type, all
+the elements below the main diagonal have a zero
+value. This type of sparse matrix is called an uppertriangular
+matrix.
+∑ There is another variant of a sparse matrix, in which
+elements with a non-zero value can appear only
+on the diagonal or immediately above or below
+the diagonal. This type of sparse matrix is called a
+tridiagonal matrix.
