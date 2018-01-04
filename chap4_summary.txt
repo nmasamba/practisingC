@@ -1,0 +1,37 @@
+
+∑ A string is a null-terminated character array.
+∑ Individual characters of strings can be accessed using
+a subscript that starts from zero.
+∑ All the characters of a string are stored in successive
+memory locations.
+∑ Strings can be read by a user using three ways: using
+scanf() function, using gets() function, or using
+getchar() function repeatedly.
+∑ The scanf() function terminates as soon as it finds
+a blank space.
+∑ The gets() function takes the starting address of the
+string which will hold the input. The string inputted
+using gets() is automatically terminated with a null
+character.
+∑ Strings can also be read by calling getchar()
+repeatedly to read a sequence of single characters.
+∑ Strings can be displayed on the screen using three
+ways: using printf function, using puts() function,
+or using putchar()function repeatedly.
+∑ C standard library supports a number of pre-defined
+functions for manipulating strings or changing the
+contents of strings. Many of these functions are
+defined in the header file string.h.
+∑ Alternatively we can also develop functions which
+perform the same task as the pre-defined string
+handling functions. The most basic function is
+the length function which returns the number of
+characters in a string.
+∑ Name of a string acts as a pointer to the string. In
+the declaration char str[5] = "hello"; str is a
+pointer which holds the address of the first character,
+i.e., ‘h’.
+∑ An array of strings can be declared as char strings
+[20][30]; where the first subscript denotes the
+number of strings and the second subscript denotes
+the length of every individual string.
