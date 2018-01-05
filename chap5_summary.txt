@@ -1,0 +1,38 @@
+
+∑ Structure is a user-defined data type that can store
+related information (even of different data types)
+together.
+∑ A structure is declared using the keyword struct,
+followed by the structure name.
+∑ The structure definition does not allocate any
+memory or consume storage space. It just gives a
+template that conveys to the C compiler how the
+structure is laid out in the memory and gives details
+of the member names. Like any data type, memory is
+allocated for the structure when we declare a variable
+of the structure.
+∑ When a struct name is preceded with the keyword
+typedef, then the struct becomes a new type.
+∑ When the user does not explicitly initialize the
+structure, then C automatically does it. For int and
+float members, the values are initialized to zero and
+char and string members are initialized to '\0' by
+default.
+∑ A structure member variable is generally accessed
+using a '.' (dot) operator.
+∑ A structure can be placed within another structure.
+That is, a structure may contain another structure
+as its member. Such a structure is called a nested
+structure.
+∑ Self-referential structures are those structures that
+contain a reference to data of its same type. That is,
+a self-referential structure, in addition to other data,
+contains a pointer to a data that is of the same type
+as that of the structure.
+∑ A union is a collection of variables of different
+data types in which memory is shared among these
+variables. The size of a union is equal to the size of
+its largest member.
+∑ The only difference between a structure and a union
+is that in case of unions information can only be
+stored in one member at a time.
