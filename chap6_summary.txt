@@ -1,0 +1,58 @@
+
+∑ A linked list is a linear collection of data elements
+called as nodes in which linear representation is
+given by links from one node to another.
+∑ Linked list is a data structure which can be used
+to implement other data structures such as stacks,
+queues, and their variations.
+∑ Before we insert a new node in linked lists, we need
+to check for OVERFLOW condition, which occurs when
+no free memory cell is present in the system.
+∑ Before we delete a node from a linked list, we must
+first check for UNDERFLOW condition which occurs
+when we try to delete a node from a linked list that
+is empty.
+∑ When we delete a node from a linked list, we have to
+actually free the memory occupied by that node. The
+memory is returned back to the free pool so that it
+can be used to store other programs and data.
+∑ In a circular linked list, the last node contains a
+pointer to the first node of the list. While traversing
+a circular linked list, we can begin at any node and
+traverse the list in any direction forward or backward
+until we reach the same node where we had started.
+∑ A doubly linked list or a two-way linked list is a
+linked list which contains a pointer to the next as
+well as the previous node in the sequence. Therefore,
+it consists of three parts—data, a pointer to the next
+node, and a pointer to the previous node.
+∑ The PREV field of the first node and the NEXT field of
+the last node contain NULL. This enables to traverse
+the list in the backward direction as well.
+∑ Thus, a doubly linked list calls for more space per
+node and more expensive basic operations. However,
+a doubly linked list provides the ease to manipulate
+the elements of the list as it maintains pointers to nodes
+in both the directions (forward and backward). The
+main advantage of using a doubly linked list is that
+it makes search operation twice as efficient.
+∑ A circular doubly linked list or a circular two-way
+linked list is a more complex type of linked list which
+contains a pointer to the next as well as previous node
+in the sequence. The difference between a doubly
+linked and a circular doubly linked list is that the
+circular doubly linked list does not contain NULL in
+the previous field of the first node and the next field
+of the last node. Rather, the next field of the last
+node stores the address of the first node of the list.
+Similarly, the previous field of the first field stores
+the address of the last node.
+∑ A header linked list is a special type of linked list
+which contains a header node at the beginning of the
+list. So, in a header linked list START will not point
+to the first node of the list but START will contain the
+address of the header node.
+∑ Multi-linked lists are generally used to organize
+multiple orders of one set of elements. In a multilinked
+list, each node can have n number of pointers
+to other nodes.
