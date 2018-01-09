@@ -1,0 +1,29 @@
+
+∑ A stack is a linear data structure in which elements
+are added and removed only from one end, which
+is called the top. Hence, a stack is called a LIFO
+(Last-In, First-Out) data structure as the element
+that is inserted last is the first one to be taken out.
+∑ In the computer’s memory, stacks can be implemented
+using either linked lists or single arrays.
+∑ The storage requirement of linked representation of
+stack with n elements is O(n) and the typical time
+requirement for operations is O(1).
+∑ Infix, prefix, and postfix notations are three different
+but equivalent notations of writing algebraic expressions.
+∑ In postfix notation, operators are placed after the
+operands, whereas in prefix notation, operators are
+placed before the operands.
+∑ Postfix notations are evaluated using stacks. Every
+character of the postfix expression is scanned from
+left to right. If the character is an operand, it is
+pushed onto the stack. Else, if it is an operator, then
+the top two values are popped from the stack and
+the operator is applied on these values. The result
+is then pushed onto the stack.
+∑ Multiple stacks means to have more than one stack
+in the same array of sufficient size.
+∑ A recursive function is defined as a function that calls
+itself to solve a smaller version of its task until a final
+call is made which does not require a call to itself.
+They are implmented using system stack.
