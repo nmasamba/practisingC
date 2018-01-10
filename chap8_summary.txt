@@ -1,0 +1,35 @@
+
+A queue is a FIFO data structure in which the element
+that is inserted first is the first one to be taken out.
+∑ The elementsin a queue are added at one end called the
+rear and removed from the other end called the front.
+∑	 In the computer ’s memory, queues can be
+implemented using both arrays and linked lists.
+∑ The storage requirement of linked representation of
+queue with n elements is O(n) and the typical time
+requirement for operations is O(1).
+∑	 In a circular queue, the first index comes after the
+last index.
+∑ Multiple queues meansto have more than one queue
+in the same array of sufficient size.
+∑ A deque is a list in which elements can be inserted
+or deleted at either end. It is also known as a headtail
+linked list because elements can be added to
+or removed from the front (head) or back (tail).
+However, no element can be added or deleted from
+the middle. In the computer’s memory, a deque
+is implemented using either a circular array or a
+circular doubly linked list.
+∑ In an input restricted deque, insertions can be
+done only at one end, while deletions can be done
+from both the ends. In an output restricted deque,
+deletions can be done only at one end, while
+insertions can be done at both the ends.
+∑ A priority queue is a data structure in which each
+element is assigned a priority. The priority of the
+element will be used to determine the orderin which
+the elements will be processed.
+∑ When a priority queue isimplemented using a linked
+list,then every node ofthe listwill have threeparts:(a)
+the information or data part,(b)the priority number of
+the element, and (c) the address of the next element.
