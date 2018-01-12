@@ -1,0 +1,48 @@
+
+A tree is a data structure which is mainly used to
+store hierarchical data. A tree is recursively defined
+as collection of one or more nodes where one node is
+designated as the root of the tree and the remaining
+nodes can be partitioned into non-empty sets each
+of which is a sub-tree of the root.
+∑ In a binary tree, every node has zero, one, or at the
+most two successors. A node that has no successors
+is called a leaf node or a terminal node. Every node
+other than the root node has a parent.
+∑ The degree of a node is equal to the number of
+children that a node has. The degree of a leaf node
+is zero. All nodes that are at the same level and share
+the same parent are called siblings.
+∑ Two binary trees having a similar structure are said
+to be copies if they have the same content at the
+corresponding nodes.
+∑ A binary tree of n nodes has exactly n – 1 edges. The
+depth of a node N is given as the length of the path
+from the root R to the node N. The depth of the root
+node is zero.
+∑ A binary tree of height h has at least h nodes and at
+most 2h – 1 nodes.
+∑ The height of a binary tree with n nodes is at
+least log2(n+1) and at most n. In-degree of
+a node is the number of edges arriving at that node.
+The root node is the only node that has an in-degree
+equal to zero. Similarly, out-degree of a node is the
+number of edges leaving that node.
+∑ In a complete binary tree, every level (except
+possibly the last) is completely filled and nodes
+appear as far left as possibly.
+∑ A binary tree T is said to be an extended binary tree
+(or a 2-tree) if each node in the tree has either no
+children or exactly two children.
+∑ Pre-order traversal is also called as depth-first traversal.
+It is also known as the NLR traversal algorithm (NodeLeft-Right)
+and is used to extract a prefix notation from
+an expression tree. In-order algorithm is known as the
+LNR traversal algorithm (Left-Node-Right). Similarly,
+post-order algorithm is known as the LRN traversal
+algorithm (Left-Right-Node).
+∑ The Huffman coding algorithm uses a variablelength
+code table to encode a source character where
+the variable-length code table is derived on the basis
+of the estimated probability of occurrence of the
+source character.
