@@ -1,0 +1,25 @@
+
+An M-way search tree has M – 1 values per node and
+M sub-trees. In such a tree, M is called the degree of
+the tree. M-way search tree consists of pointers to M
+sub-trees and contains M – 1 keys, where M > 2.
+∑ A B tree of order m can have a maximum of m–1
+keys and m pointers to its sub-trees. A B tree may
+contain a large number of key values and pointers
+to its sub-trees.
+∑ A B+ tree is a variant of B tree which stores sorted
+data in a way that allows for efficient insertion,
+retrieval, and removal of records, each of which
+is identified by a key. B+ tree record data at the
+leaf level of the tree; only keys are stored in interior
+nodes.
+∑ A trie is an ordered tree data structure which stores
+keys that are usually strings. It is basically a k-ary
+position tree.
+∑ In contrast to binary search trees, nodes in a trie
+do not store the keys associated with them. Rather,
+a node’s position in the tree represents the key
+associated with that node.
+∑ In a 2-3 tree, each interior node has either two or
+three children. This means that a 2-3 tree is not a
+binary tree.
