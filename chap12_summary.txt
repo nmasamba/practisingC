@@ -1,0 +1,25 @@
+
+∑ A binary heap is defined as a complete binary tree in
+which every node satisfies the heap property. There
+are two types of binary heaps: max heap and min
+heap.
+∑ In a min heap, elements at every node will either be
+less than or equal to the element at its left and right
+child. Similarly, in a max heap, elements at every
+node will either be greater than or equal to element
+at its left and right child.
+∑ A binomial tree of order i has a root node whose
+children are the root nodes of binomial trees of order
+i–1, i–2, ..., 2, 1, 0.
+∑ A binomial tree Bi
+ of height i has 2i nodes.
+∑ A binomial heap H is a collection of binomial trees
+that satisfy the following properties:
+o Every binomial tree in H satisfies the minimum
+heap property.
+o There can be one or zero binomial trees for each
+order including zero order.
+∑ A Fibonacci heap is a collection of trees. Fibonacci
+heaps differ from binomial heaps, as they have
+a more relaxed structure, allowing improved
+asymptotic time bounds.
