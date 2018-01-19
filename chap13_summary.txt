@@ -1,0 +1,56 @@
+
+A graph is basically a collection of vertices (also
+called nodes) and edges that connect these vertices.
+∑ Degree of a node u is the total number of edges
+containing the node u. When the degree of a node
+is zero, it is also called an isolated node. A path P
+is known as a closed path if the edge has the same
+end-points. A closed simple path with length 3 or
+more is known as a cycle.
+∑ A graph in which there exists a path between any two
+of its nodes is called a connected graph. An edge that
+has identical end-points is called a loop. The size of
+a graph is the total number of edges in it.
+∑ The out-degree of a node is the number of edges that
+originate at u.
+∑ The in-degree of a node is the number of edges that
+terminate at u. A node u is known as a sink if it has
+a positive in-degree but a zero out-degree.
+Breadth-first search is a graph search algorithm
+that begins at the root node and explores all the
+neighbouring nodes. Then for each of those nearest
+nodes, the algorithm explores their unexplored
+neighbour nodes, and so on, until it finds the goal.
+∑ The depth-first search algorithm progresses by
+expanding the starting node of G and thus going
+deeper and deeper until a goal node is found, or until
+a node that has no children is encountered.
+A transitive closure of a graph is constructed to
+answer reachability questions.
+∑ Since an adjacency matrix contains only 0s and 1s,
+it is called a bit matrix or a Boolean matrix. The
+memory use of an adjacency matrix is O(n2
+), where
+n is the number of nodes in the graph.
+∑ Topological sort of a directed acyclic graph G is
+defined as a linear ordering of its nodes in which
+each node comes before all the nodes to which it
+has outbound edges. Every DAG has one or more
+number of topological sorts.
+∑ A vertex v of G is called an articulation point if
+removing v along with the edges incident to v
+results in a graph that has at least two connected
+components.
+∑ A biconnected graph is defined as a connected graph
+that has no articulation vertices.
+A spanning tree of a connected, undirected graph G
+is a sub-graph of G which is a tree that connects all
+the vertices together.
+∑ Kruskal’s algorithm is an example of a greedy
+algorithm, as it makes the locally optimal choice
+at each stage with the hope of finding the global
+optimum.
+∑ Dijkstra’s algorithm is used to find the length of an
+optimal path between two nodes in a graph.
+
+
