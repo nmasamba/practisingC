@@ -1,0 +1,67 @@
+
+∑ Searching refers to finding the position of a value
+in a collection of values. Some of the popular
+searching techniques are linear search, binary search,
+interpolation search, and jump search.
+∑ Linear search works by comparing the value to be
+searched with every element of the array one by one
+is a sequence until a match is found.
+∑ Binary search works efficiently with a sorted list. In
+this algorithm, the value to be searched is compared
+with the middle element of the array segment.
+∑ In each step of interpolation search, the search
+space for the value to be found is calculated. The
+calculation is done based on the values at the bounds
+of the search space and the value to be searched.
+∑ Jump search is used with sorted lists. We first check
+an element and if it is less than the desired value, then
+a block of elements is skipped by jumping ahead, and
+the element following this block is checked. If the
+checked element is greater than the desired value,
+then we have a boundary and we are sure that the
+desired value lies between the previously checked
+element and the currently checked element.
+∑ Internal sorting deals with sorting the data stored
+in the memory, whereas external sorting deals with
+sorting the data stored in files.
+∑ In bubble sorting, consecutive adjacent pairs of
+elements in the array are compared with each other.
+∑ Insertion sort works by moving the current data
+element past the already sorted values and repeatedly
+interchanging it with the preceding value until it is
+in the correct place.
+∑ Selection sort works by finding the smallest value
+and placing it in the first position. It then finds the
+second smallest value and places it in the second
+position. This procedure is repeated until the whole
+array is sorted.
+∑ Merge sort is a sorting algorithm that uses the divide,
+conquer, and combine algorithmic paradigm. Divide
+means partitioning the n-element array to be sorted
+into two sub-arrays of n/2 elements in each subarray.
+Conquer means sorting the two sub-arrays
+recursively using merge sort. Combine means
+merging the two sorted sub-arrays of size n/2 each
+to produce a sorted array of n elements. The running
+time of merge sort in average case and worst case
+can be given as O(n log n).
+∑ Quick sort works by using a divide-and-conquer
+strategy. It selects a pivot element and rearranges
+the elements in such a way that all elements less
+than pivot appear before it and all elements greater
+than pivot appear after it.
+∑ Radix sort is a linear sorting algorithm that uses the
+concept of sorting names in alphabetical order.
+∑ Heap sort sorts an array in two phases. In the first
+phase, it builds a heap of the given array. In the
+second phase, the root element is deleted repeatedly
+and inserted into an array.
+∑ Shell sort is considered as an improvement over
+insertion sort, as it compares elements separated by
+a gap of several positions.
+∑ A tree sort is a sorting algorithm that sorts numbers
+by making use of the properties of binary search tree.
+The algorithm first builds a binary search tree using
+the numbers to be sorted and then does an in-order
+traversal so that the numbers are retrieved in a sorted
+order.
