@@ -4,11 +4,19 @@ Adapted from Data Structures in C, 2nd Ed (Reema Thareja)
 
 Edited by Nyasha Masamba
 
-This C program implements a closed hashing search solution...
+This C program implements closed hashing based on the addition method. A hash table is a data structure in which keys 
+are mapped to array positions by a hash function. A value stored in a hash table can be searched in O(1) 
+time by using a hash function which generates an address from the key (by producing the index of the array 
+where the value is stored). This process of mapping the keys to appropriate locations (or indices) in a 
+hash table is called hashing. When two or more keys are mapped to the same memory location, a collision
+is said to have occured. COllisions can be resolved either by open addressing or by chaining. Hash 
+tables are widely used in situations where enormous amounts of data have to be accessed
+to quickly search and retrieve information. However, choosing an effective hash function can turn out to 
+be more of an art than a science.
 
-Example I/O
-
->$ 
+In closed hashing, all the records are directly stored in the hash table. Each record with a key
+value k is stored in a location called its home position. The home position is calculated by
+applying some hash function such as the folding method, addition method or multiplication method. 
 
 ********************************************************************************************************/
 
