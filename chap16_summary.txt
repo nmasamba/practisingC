@@ -1,0 +1,79 @@
+
+A file is a block of useful information which is
+available to a computer program and is usually stored
+on a persistent storage medium.
+∑ Every file contains data. This data can be organized
+in a hierarchy to present a systematic organization.
+The data hierarchy includes data items such as fields,
+records, files, and database.
+∑ A data field is an elementary unit that stores a single
+fact. A record is a collection of related data fields
+which is seen as a single unit from the application
+point of view. A file is a collection of related records.
+A directory is a collection of related files.
+∑ A database is defined as a collection of data
+organized in a fashion that facilitates updating,
+retrieving, and managing the data.
+∑ There are two types of computer files—text files and
+binary files. A text file is structured as a sequence of
+lines of alphabet, numbers, special characters, etc.
+However, the data in a text file is stored using its
+corresponding ASCII code. Whereas in binary files,
+the data is stored in binary form, i.e., in the format
+it is stored in the memory.
+∑ Each file has a list of attributes associated with it
+which can have one of two states—on or off. These
+attributes are: read-only, hidden, system, volume
+label, archive, and directory.
+∑ A file marked as read-only cannot be deleted or
+modified.
+∑ A hidden file is not displayed in the directory listing.
+∑ A system file is used by the system and should not
+be altered or removed from the disk.
+∑ The archive bit is useful for communication between
+programs that modify files and programs that are used
+for backing up files.
+∑ A file that has the directory bit turned on is actually
+a sub-directory containing one or more files.
+∑ File organization means the logical arrangement
+of records in the file. Files can be organized as
+sequential, relative, or index sequential.
+∑ A sequentially organized file stores records in the
+order in which they were entered.
+∑ In relative file organization, records in a file are
+ordered by their relative key. Relative files can be
+used for both random access as well as sequential
+access of data.
+∑ In an indexed sequential file, every record is uniquely
+identified by a key field. We maintain a table known
+as the index table that stores record number and the
+address of the record in the file.
+∑ There are several indexing techniques, and each
+technique works well for a particular application.
+∑ In a dense index, index table stores the address of
+every record in the file. However, in a sparse index,
+index table stores address of only some of the records
+in the file.
+∑ Cylinder surface indexing is a very simple technique
+which is used only for the primary key index of a
+sequentially ordered file.
+∑ In multi-level indexing, we can create an index to
+the index itself. The original index is called the firstlevel
+index and the index to the index is called the
+second-level index.
+Inverted files are frequently used indexing technique
+in document retrieval systems for large textual
+databases. An inverted file reorganizes the structure
+of an existing data file in order to provide fast access
+to all records having one field falling within set
+limits.
+∑ Majority of the database management systems use
+B-tree indexing technique. The index consists of a
+hierarchical structure with upper blocks containing
+indices pointing to the lower blocks and lowest level
+blocks containing pointers to the data records.
+∑ Hashed file organization uses hashed indices. Hashing
+is used to calculate the address of disk block where
+the desired record is stored. If K is the set of all search
+key values and B is the set of bucket addresses, then
+a hash function H maps K to B.
